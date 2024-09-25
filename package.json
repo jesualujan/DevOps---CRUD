@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "mocha --recursive --exit",
-    "dev" : "nodemon app/app.js"
+    "dev" : "nodemon --legacy-watch app/app.js"
   },
   "keywords": [],
   "author": "",
