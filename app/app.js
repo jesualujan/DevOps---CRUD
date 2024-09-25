@@ -4,6 +4,16 @@ const express = require('express');
 // Crear una instancia de la aplicación Express
 const app = express();
 
+// Este middleware analiza las solicitudes entrantes con cargas útiles codificadas en URL 
+// (como las enviadas por formularios HTML).
+app.use(express.urlencoded({
+    extended: false
+}))
+
+//Este middleware analiza las solicitudes entrantes con cargas útiles en formato JSON.
+//Es útil para manejar datos enviados en el cuerpo de la solicitud, especialmente en aplicaciones API RESTful.
+app.use(express.json())
+
 // Definir una ruta básica
 app.get('/', (req, res) => {
     res.send('¡Hola Mundo!');
