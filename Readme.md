@@ -9,3 +9,13 @@
 > que le resulte más legible <br>
 > y cómodo para escribir sus pruebas.
 > comando para instalar: npm i chai
+
+
+> [!TIP]
+> Comando para ejecutar nuestra app de docker
+> docker-compose up --build
+
+
+> [!TIP]
+> Comando para instalar pg
+> npm i pg
