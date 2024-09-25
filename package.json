@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "mocha --recursive --exit",
-    "dev" : "nodemon --legacy-watch app/app.js"
+    "dev": "nodemon --legacy-watch app/app.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   "dependencies": {
     "chai": "^5.1.1",
     "express": "^4.21.0",
-    "mocha": "^10.7.3"
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.7"
   }
 }
